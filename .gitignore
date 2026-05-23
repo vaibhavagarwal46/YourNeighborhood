@@ -1,0 +1,26 @@
+# --- Databases & Private Configurations ---
+**/backend/.env
+**/frontend/.env
+**/.env
+*.env.local
+
+# --- Python Dependencies (Strict Root-relative paths) ---
+backend/venv/
+backend/.venv/
+backend/env/
+**/__pycache__/
+*.pyc
+
+# --- React Front-End Dependencies ---
+frontend/node_modules/
+frontend/build/
+frontend/.pnp
+frontend/.pnp.js
+
+# --- Log Files & System Junk ---
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
